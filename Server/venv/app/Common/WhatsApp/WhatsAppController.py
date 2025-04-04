@@ -6,11 +6,11 @@ from app import db, app
 
 API_URL = os.getenv('API_URL')
 
-GITHUB_API_URL = 'https://api.github.com'
-GITHUB_USERNAME = 'RutujaChougule1008'  
-GITHUB_REPO = 'GautamEWayBillPortal'  # Replace with your repository name
-GITHUB_TOKEN = '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'  # Replace with your GitHub personal access token
-BRANCH = 'main'  # Default branch (use 'main' or 'master', depending on your repo)
+GITHUB_API_URL = os.getenv('GITHUB_API_URL')
+GITHUB_USERNAME = os.getenv('GITHUB_USERNAME') 
+GITHUB_REPO = os.getenv('GITHUB_REPO')
+GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
+BRANCH = os.getenv('BRANCH')
 
 @app.route(API_URL + '/upload-to-github', methods=['POST'])
 def upload_to_github():
