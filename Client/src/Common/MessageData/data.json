@@ -1,0 +1,104 @@
+{
+  "SaleBill": {
+    "subject": "Bill No: {doc_no} Lorry No: {LORRYNO} Mill Name: {millname} Get Pass: {billtoname}",
+    "body": "Sale Bill",
+    "pdfName": "SaleBill_{doc_no} - {LORRYNO}",
+    "whatsappMessage": "Hi, Sale Bill from {Company_Name_E}. Bill No: {doc_no}, Lorry No: {LORRYNO}, Mill Name: {millname}, Buyer: {billtoname}. For more details, please find the attached PDF. Any issues, call {PHONE}."
+  },
+  "EwayBill": {
+    "subject": "EWayBill NO: {EWay_Bill_No} Bill No: {doc_no} Lorry No: {LORRYNO} Mill Name: {millname} Get Pass: {Buyer_Name}",
+    "body": "Eway Bill",
+    "pdfName": "EWayBill_{doc_no} - {LORRYNO}",
+    "whatsappMessage": "Hi, EWay Bill from {Company_Name_E}. EWay Bill No: {EWay_Bill_No}, Bill No: {doc_no}, Lorry No: {LORRYNO}, Mill Name: {millname}, Buyer: {Buyer_Name}. For details, see the attached PDF. Contact {PHONE} for support."
+  },
+  "Partywise Balance Stock Report": {
+    "subject": "Partywise Balance Stock Report",
+    "body": "Partywise Balance Stock Report",
+    "pdfName": "Partywise Balance Stock Report",
+    "whatsappMessage": "Hi, Partywise Balance Stock Report . Please check the attached PDF for details."
+  },
+  "Millwise Lifting Stock Report": {
+    "subject": "Millwise Lifting Stock Report",
+    "body": "Millwise Lifting Stock Report",
+    "pdfName": "Millwise Lifting Stock Report",
+    "whatsappMessage": "Hi, Millwise Lifting Stock Report. See the attached PDF for detailed information."
+  },
+  "Self Stock Report": {
+    "subject": "Self Stock Report",
+    "body": "Self Stock Report",
+    "pdfName": "Self Stock Report",
+    "whatsappMessage": "Hi, Self Stock Report. Please find the details in the attached PDF."
+  },
+  "Bank Book Report": {
+    "subject": "Bank Book Report",
+    "body": "Bank Book Report",
+    "pdfName": "Bank Book Report",
+    "whatsappMessage": "Hi, Bank Book Report. Please find the details in the attached PDF."
+  },
+  "Account Master List": {
+    "subject": "Account Master List",
+    "body": "Account Master List",
+    "pdfName": "Account Master List",
+    "whatsappMessage": "Hi, Account Master List. Please find the details in the attached PDF for your reference."
+  },
+  "Interest Statement Report": {
+    "subject": "Interest Statement Report",
+    "body": "Interest Statement Report",
+    "pdfName": "Interest Statement Report",
+    "whatsappMessage": "Hi, Interest Statement Report. Please find the details in the attached PDF for your reference."
+  },
+  "Stock-Report": {
+    "subject": "Stock-Report",
+    "body": "Stock-Report",
+    "pdfName": "Stock-Report",
+    "whatsappMessage": "Hi, Stock-Report. Please find the details in the attached PDF for your reference."
+  },
+  "Stock Book Detail Report": {
+    "subject": "Stock Book Detail Report",
+    "body": "Stock Book Detail Report",
+    "pdfName": "Stock Book Detail Report",
+    "whatsappMessage": "Hi, Stock Book Detail Report. Please find the details in the attached PDF for your reference."
+  },
+  "OurDO": {
+    "subject": "Our DO Report",
+    "body": "Our DO Report",
+    "pdfName": "Our DO Report",
+    "whatsappMessage": "Hi, Our DO Report. Please find the details in the attached PDF for your reference."
+  },
+  "UTR": {
+    "subject": "UTR Report",
+    "body": "UTR Report",
+    "pdfName": "UTR_Report_{mill_code}_{Ac_Name_E}",
+    "whatsappMessage": "Hi, UTR Report. Please find the details in the attached PDF for your reference."
+  },
+  "RecieptPayment": {
+    "subject": "RecieptPayment Report",
+    "body": "RecieptPayment Report",
+    "pdfName": "RecieptPayment_Report_{credit_ac}_{creditname}",
+    "whatsappMessage": "Hi, RecieptPayment Report. Please find the details in the attached PDF for your reference."
+  },
+  "JournalVoucher": {
+    "subject": " Journal Voucher Report",
+    "body": "JournalVoucher Report",
+    "pdfName": "JournalVoucher_Report",
+    "whatsappMessage": "Hi, Our DO Report. Please find the details in the attached PDF for your reference."
+  },
+  "DebitCredit": {
+    "subject": " DebitCredit Report",
+    "body": "DebitCredit Report",
+    "pdfName": "DebitCredit",
+    "whatsappMessage": "Hi,DebitCredit Report. Please find the details in the attached PDF for your reference."
+  },
+  "ServiceBill": {
+    "subject": " ServiceBill Report",
+    "body": "ServiceBill Report",
+    "pdfName": "ServiceBill",
+    "whatsappMessage": "Hi, Our DO Report. Please find the details in the attached PDF for your reference."
+  },
+  "PurchaseBill": {
+    "subject": " PurchaseBill Report",
+    "body": "PurchaseBill Report",
+    "pdfName": "PurchaseBill",
+    "whatsappMessage": "Hi, Our DO Report. Please find the details in the attached PDF for your reference."
+  }
+}
